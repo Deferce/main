@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(124, 148, 172);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 23px;
+}
+body input {
+  margin-top: 3px;
+  height: 15px;
+  width: 100px;
+  padding: 5px;
+}
+body a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+body h3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 100%;
+  margin-top: 5px;
+  text-align: center;
+  color: orange;
+}
+body span {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  background-color: orangered;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  color: azure;
+}
+body div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 100%;
+  margin-top: 5px;
+  text-align: center;
+}
+body div:last-child {
+  margin-top: 10px;
+}
+body div:last-child button {
+  background-color: lightblue;
+  font-size: 15px;
+  width: 122px;
+}/*# sourceMappingURL=main.css.map */

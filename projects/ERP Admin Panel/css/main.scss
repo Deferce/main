@@ -1,0 +1,149 @@
+    @import '_functions_main', '_variables_main';
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    /// Statuses not specified directly so that they can be accessed, on multiple files
+    #connectionDbStatus {
+        color: chartreuse;
+        text-align: center;
+        text-transform: uppercase;
+        display: block;
+
+
+
+    }
+
+    #connectionDbStatusEr {
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    body {
+        background-color: $mainbgColor;
+        color: $mainTextColor;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+
+    .topSection {
+        margin-top: 50px;
+
+        @include mainContainer(inherit);
+        @include flex(space-between, flex-end, inherit);
+        @include line(bottom, 3px, solid, black);
+
+
+
+        input+input {
+            margin-left: 70px;
+
+        }
+
+        input {
+            @include btn();
+
+        }
+
+
+    }
+
+    .midSection {
+
+        @include mainContainer(inherit);
+        text-align: center;
+
+
+        .productSection {
+
+            display: grid;
+            grid-template-columns: repeat(4, 25%);
+            gap: 5px;
+            margin-top: 10px;
+
+        }
+
+
+
+        div {
+
+
+            background-color: darkgray;
+            border: 2px solid greenyellow;
+        }
+
+    }
+
+    .productForm {
+        margin-top: 20px;
+        font-weight: bold;
+
+        input {
+            text-transform: uppercase;
+            margin: 5px 0;
+            height: 30px;
+            max-width: 900px;
+            background-color: orange;
+            margin-top: 5px;
+        }
+
+        .selector {
+            margin-top: 5px;
+            width: 236px;
+            height: 30px;
+            background-color: orange;
+
+
+
+        }
+
+
+
+        .formAdd {
+            @include flex(space-between, flex-start, column);
+            @include mainContainer(inherit);
+
+        }
+
+        //container for styling select elements
+        .selectContainer {
+            @include flex(inherit, inherit, column);
+
+        }
+
+        //for styling input that occur on the form via event
+        .dynamicStyle {
+
+            background-color: inherit;
+            border: 3px solid darkorange;
+
+
+            label {
+                margin-top: 10px;
+
+            }
+        }
+
+    }
+
+
+
+    footer {
+        @include flex(space-around, flex-end, inherit);
+        @include mainContainer(70vh);
+
+        h2 {
+
+            @include flex(center, center, inherit);
+            @include line(top, 3px, solid, black);
+        }
+    }
