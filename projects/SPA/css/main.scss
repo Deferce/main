@@ -1,0 +1,621 @@
+    $lightGreen: #10B981;
+    $darkGreen: #064E3B;
+
+
+    /* Standard syntax for Chrome-based browsers */
+    /* Standard syntax for Chrome and Opera */
+
+
+    body {
+        font-family: 'Playfair Display', serif;
+
+
+    }
+
+    .imgHeader {
+        right: 0;
+        position: absolute;
+        width: 703px;
+        height: 798px;
+        z-index: -10;
+    }
+
+    .zcont {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        gap: 5px;
+
+
+        position: inherit;
+        height: 2641px;
+        //  width: 1603px;
+    }
+
+    section {
+
+
+
+
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            outline: none;
+        }
+
+        /**
+    * ! BLOCK 01 
+    */
+
+        pre:hover {
+            cursor: pointer;
+        }
+
+
+
+        .header {
+
+            width: 100vw;
+            height: 90vh;
+
+        }
+
+        .logo01 {
+            margin-left: 104px;
+            margin-top: 58px;
+        }
+
+        .header01 {
+
+            color: $darkGreen;
+
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 80px;
+            letter-spacing: 1.12px;
+            margin-top: 117px;
+
+        }
+
+        .highlight {
+            color: $lightGreen;
+        }
+
+
+
+        .button011 {
+
+            display: inline-block;
+            background: linear-gradient(4deg, #059669 3.04%, #36DCA5 96.51%);
+            font-family: Work Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%;
+
+            color: #FFF;
+            padding: 14px 28px;
+            font-weight: 500;
+            text-align: center;
+            margin-left: 106px;
+            margin-top: 56px;
+
+        }
+
+        .button012 {
+            padding: 14px 28px;
+            color: #10B981;
+            font-family: Work Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            border: 1px solid #10B981;
+            margin-left: 8px;
+        }
+
+        .whiteBlock01 {
+            width: 434px;
+            height: 108px;
+            background: #FFF;
+            margin-left: 706px;
+            margin-top: 19px;
+            z-index: -1;
+            position: absolute;
+        }
+
+        .whiteInfo01 {
+            color: #047857;
+            font-family: "Work Sans";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 140%;
+            position: absolute;
+            margin-left: -32px;
+            margin-top: 10px;
+        }
+
+        .whiteInfo02 {
+            color: #059669;
+            font-family: "Work Sans";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%;
+            margin-left: 122px;
+            margin-top: 13px;
+            margin-right: 5px;
+        }
+
+        .greenBlock01 {
+            position: absolute;
+            margin-left: 673px;
+            width: 442.164px;
+            height: 108.086px;
+            background: linear-gradient(0deg, #059669 0.08%, #10B981 100%);
+            display: flex;
+            margin-top: 63px;
+            align-items: center;
+            flex-direction: column;
+            z-index: 4;
+        }
+
+        .greenBlock01:hover {
+            cursor: pointer;
+        }
+
+        .time {
+            display: flex;
+            color: #FFF;
+            font-family: "Work Sans";
+            font-size: 49px;
+            font-style: normal;
+            font-weight: 600;
+            padding-left: 33px;
+            margin-top: 25px;
+
+
+
+
+            div:not(:first-child) {
+                margin-left: 35px;
+            }
+        }
+
+
+        .infoTab {
+            color: #FFF;
+
+            font-family: "Work Sans";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%;
+
+
+
+        }
+
+
+        #secondsInfo {
+            margin-left: -55px;
+            margin-top: 45px;
+            background-color: orange;
+        }
+
+
+
+        /**
+    * ! BLOCK 02
+    */
+
+        .secondBlockOne {
+
+            height: 930px;
+
+            width: 100vw;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+
+            margin: 0 auto;
+
+        }
+
+        .cardBlock {
+            margin-left: 45px;
+            width: 378px;
+        }
+
+        .cardInfo {
+            display: flex;
+        }
+
+        .imgCard {
+            margin-top: 20px;
+            box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .blockFooter {
+            display: flex;
+            font-family: Work Sans;
+
+            font-size: 24px;
+
+            font-weight: 500;
+
+            line-height: 140%;
+            color: rgb(255, 255, 255);
+            letter-spacing: 0%;
+
+            div {
+                margin-top: 41px;
+            }
+
+            img {
+                margin-left: 14px;
+                margin-top: 41px;
+            }
+        }
+
+
+        .priceText {
+            color: rgb(255, 255, 255);
+            font-family: Work Sans;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 140%;
+            border-radius: 20px;
+            width: 146px;
+            height: 25px;
+            background: rgb(4, 120, 87);
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        .priceRightDesc {
+            color: rgb(255, 255, 255);
+            font-family: W ork Sans;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 140%;
+            margin-left: auto;
+        }
+
+        .cardText {
+            color: rgb(236, 253, 245);
+            font-family: Playfair Display;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            letter-spacing: 2%;
+            text-align: left;
+            margin-top: 98px;
+        }
+
+        .dotStripe {
+            border: 2px dashed rgb(236, 253, 245);
+            margin-top: 31px;
+            margin-bottom: 17px;
+            width: 376px;
+        }
+
+        .secondBlockCardOne {
+
+            background: linear-gradient(45.00deg, rgb(5, 150, 105) 0%, rgb(16, 185, 129) 100%);
+        }
+
+        .secondBlockCardOne:hover,
+        .secondBlockCardTwo:hover,
+        .secondBlockCardThree:hover {
+            cursor: pointer;
+        }
+
+        .secondBlockCardTwo {
+
+            background: linear-gradient(45.00deg, rgb(5, 150, 105) 0%, rgb(16, 185, 129) 100%);
+        }
+
+        .secondBlockCardThree {
+
+            background: linear-gradient(45.00deg, rgb(5, 150, 105) 0%, rgb(16, 185, 129) 100%), rgb(5, 150, 105);
+        }
+
+
+
+        .secondBlockButton {
+            width: 228px;
+            height: 60px;
+            grid-column: 2/3;
+            background: linear-gradient(270.00deg, rgb(5, 150, 105) 0%, rgb(16, 185, 129) 100%);
+            margin: 0 auto;
+            margin-top: 24px;
+            color: rgb(255, 255, 255);
+            font-family: Work Sans;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+            z-index: 3;
+
+            a {
+                cursor: pointer;
+            }
+
+            div {
+                margin-top: 13px;
+            }
+        }
+
+
+
+        /**
+    * ! BLOCK 03
+    */
+        .thirdBlock {
+            grid-column: 1/2;
+
+
+        }
+
+        .thirdBlockImage {
+            position: absolute;
+            right: 0;
+            z-index: 2;
+            margin-top: -220px;
+        }
+
+        .thirdGreenBlock {
+            // width: 560px;
+            width: 1256px;
+            height: 450px;
+            background: linear-gradient(46.20deg, rgb(5, 150, 105) 19.97%, rgb(16, 185, 129) 92.827%);
+            position: absolute;
+            right: 0;
+            margin-top: 42px;
+            z-index: -1;
+        }
+
+        .leftGreenBlock {
+            width: 772px;
+            height: 485px;
+            background: rgb(236, 253, 245);
+            margin-left: 108px;
+            margin-top: -22px;
+        }
+
+        .thirdBlockLower:hover {
+            cursor: pointer;
+        }
+
+        .thirdBlockLower {
+
+            width: 504px;
+            margin-left: 73px;
+            padding-top: 77px;
+
+            .thirdBlockLinkLower {
+                width: 118px;
+                font-family: Work Sans;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 140%;
+                height: 25px;
+                padding-top: 24px;
+
+                a {
+
+                    color: rgb(4, 120, 87);
+                    text-decoration: underline;
+                }
+            }
+
+            .thirdBlockLowerText {
+                width: 504px;
+                height: 81px;
+                color: rgb(4, 120, 87);
+                font-family: Work Sans;
+                font-style: italic;
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 24px;
+                line-height: 27px;
+            }
+
+            .thirdBlockSubText {
+                color: rgb(4, 120, 87);
+                padding-top: 20px;
+                font-family: Work Sans;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+
+                span {
+                    color: rgb(4, 120, 87);
+                    font-family: Work Sans;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    font-weight: bolder;
+                }
+            }
+
+            .thirdBlockHeader {
+                width: 246px;
+                color: rgb(4, 120, 87);
+
+                font-family: Playfair Display;
+
+                font-size: 40px;
+
+                font-weight: 700;
+                margin-top: 10px;
+                line-height: 140%;
+                height: 56px;
+            }
+
+            .exclBtn {
+                background: rgb(4, 120, 87);
+                width: 170px;
+
+                color: rgb(236, 253, 245);
+                font-family: Work Sans;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 140%;
+                height: 34px;
+
+                text-align: center;
+
+                p {
+                    padding-top: 4px;
+                }
+
+            }
+
+
+        }
+
+
+        /**
+    * ! FOOTER
+    */
+        .footer {
+            width: 1241px;
+            height: 156px;
+
+            margin-top: 225px;
+            margin-left: 104px;
+
+            .leftFooter {
+                width: 1500px;
+
+                height: 156px;
+                display: flex;
+
+            }
+
+
+
+            .footerCopyRight {
+                color: rgb(6, 78, 59);
+                font-family: Work Sans;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 140%;
+                margin-left: -115px;
+
+                margin-top: 105px;
+
+            }
+
+
+
+            .footerBlock {
+                width: 74px;
+                height: 155px;
+                color: rgb(6, 78, 59);
+                font-family: Work Sans;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 140%;
+                letter-spacing: 0%;
+                margin-left: 90px;
+                margin-right: -35px;
+
+
+                div:not(:first-child) {
+                    margin-top: 16px;
+
+                    //background-color: wheat;
+                }
+
+
+                div:nth-child(1) {
+                    margin-bottom: 20px;
+                    font-weight: 600;
+
+                }
+
+                .telF01 {
+                    width: 170px;
+
+
+                }
+
+                .telF02 {
+
+                    width: 170px;
+
+
+                }
+
+            }
+
+            .rightFooterBlock {
+                width: 307px;
+                height: 101px;
+
+                margin-left: 389px;
+
+                p {
+                    color: rgb(6, 78, 59);
+                    font-family: Work Sans;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 140%;
+
+                }
+
+
+
+                .emailForm {
+                    text-decoration: none;
+                    outline: none;
+                    margin-top: 47px;
+                    width: 301px;
+                    height: 29px;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 2px solid rgb(6, 78, 59);
+
+                }
+
+
+
+                .sbmtBtn {
+                    height: 15px;
+                    width: 19px;
+                    position: absolute;
+                    // right: -10;
+                    margin-right: 100px;
+                    align-self: flex-end;
+                    margin-top: 55px;
+                }
+            }
+
+            .errorBox {
+                color: rgb(6, 78, 59);
+                font-family: Work Sans;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 140%;
+            }
+
+            .hidden {
+                display: none;
+            }
+
+            .active {
+                display: block;
+            }
+        }
+
+
+
+
+    }
