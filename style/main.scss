@@ -1,0 +1,227 @@
+@mixin lineGradientLeft {
+    background: #ff4b1f;
+    background: -webkit-linear-gradient(to left, #1fddff, #ff4b1f);
+    background: linear-gradient(to left, #1fddff, #ff4b1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin lineGradientRight {
+    background: #ff4b1f;
+    background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);
+    background: linear-gradient(to right, #1fddff, #ff4b1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin lineGradientRightDesign {
+    background: #ff4b1f;
+    background: -webkit-linear-gradient(to right, #D38312, #A83279);
+    background: linear-gradient(to right, #D38312, #A83279);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin lineGradientLeftDesign {
+    background: #ff4b1f;
+    background: -webkit-linear-gradient(to left, #D38312, #A83279);
+    background: linear-gradient(to left, #D38312, #A83279);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+html {
+    min-height: 100vh;
+    background: -webkit-linear-gradient(to left, #C06C84, #6C5B7B, #355C7D);
+    background: linear-gradient(to left, #C06C84, #6C5B7B, #355C7D);
+
+
+    font-family: 'Vina Sans', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 0fr 9fr 1fr;
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+.midSection {
+
+    //header
+    .header {
+
+        .gitHub:hover {
+            cursor: pointer;
+            filter: hue-rotate(180deg);
+        }
+
+
+        h1 {
+            text-align: center;
+            font-size: 100px;
+            color: whitesmoke;
+            cursor: pointer;
+
+            img {
+                height: 80px;
+                width: 80px;
+            }
+
+            span {
+                @include lineGradientLeft();
+            }
+
+            span:hover {
+                @include lineGradientRight();
+            }
+        }
+    }
+
+
+    .projBody {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 5.1fr 3fr 4fr;
+        margin-top: 3%;
+
+
+
+        .projCenter {
+            margin-top: 12%;
+        }
+
+        .design {
+
+            .off {
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            .designBlock {
+                display: inline-flex;
+
+                img {
+                    height: 45px;
+                }
+
+                img:hover {
+                    cursor: pointer;
+                    transform: scale(1.4);
+                    filter: brightness(1.5);
+                    opacity: 0.9;
+                }
+
+                p {
+                    @include lineGradientRightDesign;
+                    padding-top: 2px;
+                    font-size: 35px;
+                    margin-left: 10px;
+                }
+
+                p:hover {
+                    @include lineGradientLeftDesign;
+                }
+            }
+
+        }
+
+        .projLeft {
+            margin-top: 7.2%;
+
+            img {
+                float: right;
+                margin-top: 5px;
+            }
+        }
+
+
+
+        img[alt="tabImg"] {
+            height: 45px;
+            width: 45px;
+        }
+
+
+
+        img[alt="tabImg"]:hover {
+            cursor: pointer;
+        }
+
+        P {
+            display: inline-block;
+            margin-bottom: 15px;
+            font-size: 50px;
+            @include lineGradientLeft();
+            transition: background-color 0.3s ease, transform 0.3s ease;
+
+        }
+
+        p:hover {
+            text-decoration: underline;
+            text-decoration-color: #db511e;
+            @include lineGradientRight();
+            filter: brightness(1.5);
+            opacity: 0.9;
+        }
+
+        img:hover {
+            cursor: pointer;
+            transform: scale(1.4);
+            filter: brightness(1.5);
+            opacity: 0.9;
+        }
+
+
+
+        .hiddenv {
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        .hiddenv:hover {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .projRight {
+            margin-top: 8.9%;
+
+
+            .hidden {
+                display: none;
+            }
+        }
+
+        .techBox {
+            display: flex;
+            margin-left: 5%;
+
+            img {
+                margin-top: 5px;
+                width: 45px;
+                height: 45px;
+                float: left;
+                margin-right: 15px;
+            }
+
+            img:hover {
+                cursor: pointer;
+                transform: scale(1.4);
+                filter: brightness(1.5);
+                opacity: 0.9;
+            }
+        }
+    }
+}
+
+
+.footer {
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

@@ -1,0 +1,157 @@
+html {
+  min-height: 100vh;
+  background: linear-gradient(to left, #C06C84, #6C5B7B, #355C7D);
+  font-family: "Vina Sans", sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 0fr 9fr 1fr;
+}
+body a {
+  text-decoration: none;
+}
+
+.midSection .header .gitHub:hover {
+  cursor: pointer;
+  filter: hue-rotate(180deg);
+}
+.midSection .header h1 {
+  text-align: center;
+  font-size: 100px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.midSection .header h1 img {
+  height: 80px;
+  width: 80px;
+}
+.midSection .header h1 span {
+  background: #ff4b1f;
+  background: linear-gradient(to left, #1fddff, #ff4b1f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.midSection .header h1 span:hover {
+  background: #ff4b1f;
+  background: linear-gradient(to right, #1fddff, #ff4b1f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.midSection .projBody {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 5.1fr 3fr 4fr;
+  margin-top: 3%;
+}
+.midSection .projBody .projCenter {
+  margin-top: 12%;
+}
+.midSection .projBody .design .off {
+  opacity: 0;
+  visibility: hidden;
+}
+.midSection .projBody .design .designBlock {
+  display: inline-flex;
+}
+.midSection .projBody .design .designBlock img {
+  height: 45px;
+}
+.midSection .projBody .design .designBlock img:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+  filter: brightness(1.5);
+  opacity: 0.9;
+}
+.midSection .projBody .design .designBlock p {
+  background: #ff4b1f;
+  background: linear-gradient(to right, #D38312, #A83279);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 2px;
+  font-size: 35px;
+  margin-left: 10px;
+}
+.midSection .projBody .design .designBlock p:hover {
+  background: #ff4b1f;
+  background: linear-gradient(to left, #D38312, #A83279);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.midSection .projBody .projLeft {
+  margin-top: 7.2%;
+}
+.midSection .projBody .projLeft img {
+  float: right;
+  margin-top: 5px;
+}
+.midSection .projBody img[alt=tabImg] {
+  height: 45px;
+  width: 45px;
+}
+.midSection .projBody img[alt=tabImg]:hover {
+  cursor: pointer;
+}
+.midSection .projBody P {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 50px;
+  background: #ff4b1f;
+  background: linear-gradient(to left, #1fddff, #ff4b1f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.midSection .projBody p:hover {
+  text-decoration: underline;
+  text-decoration-color: #db511e;
+  background: #ff4b1f;
+  background: linear-gradient(to right, #1fddff, #ff4b1f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: brightness(1.5);
+  opacity: 0.9;
+}
+.midSection .projBody img:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+  filter: brightness(1.5);
+  opacity: 0.9;
+}
+.midSection .projBody .hiddenv {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+.midSection .projBody .hiddenv:hover {
+  opacity: 1;
+  visibility: visible;
+}
+.midSection .projBody .projRight {
+  margin-top: 8.9%;
+}
+.midSection .projBody .projRight .hidden {
+  display: none;
+}
+.midSection .projBody .techBox {
+  display: flex;
+  margin-left: 5%;
+}
+.midSection .projBody .techBox img {
+  margin-top: 5px;
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-right: 15px;
+}
+.midSection .projBody .techBox img:hover {
+  cursor: pointer;
+  transform: scale(1.4);
+  filter: brightness(1.5);
+  opacity: 0.9;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}/*# sourceMappingURL=main.css.map */

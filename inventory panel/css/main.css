@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#connectionDbStatus {
+  color: chartreuse;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+#connectionDbStatusEr {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: rgb(110, 109, 106);
+  color: rgb(233, 231, 231);
+  font-family: "Montserrat", sans-serif;
+  background: #485563;
+  background: linear-gradient(to right, #29323c, #485563);
+}
+body a {
+  all: unset;
+  cursor: pointer;
+  font-weight: bold;
+}
+body .csCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 15rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 0 5px white inset;
+}
+body #csCardD {
+  margin: 5rem auto;
+  text-align: center;
+}
+body .csCard:hover {
+  background: linear-gradient(to top, #3b8d99, #6b6b83, #aa4b6b);
+  cursor: pointer;
+}
+body .csSubBlock {
+  margin: 10px;
+}
+body .csSubBlock input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: orange;
+}
+body .csHeader {
+  margin: 0 auto;
+  max-width: 90vw;
+  height: inherit;
+  text-align: center;
+}
+body .gradient-link {
+  background: linear-gradient(45deg, #ff6b6b, #f94d6a, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body a:hover {
+  filter: brightness(1.5);
+}
+
+.topSection {
+  margin-top: 50px;
+  margin: 0 auto;
+  max-width: 90vw;
+  height: inherit;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: inherit;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50px;
+  border-bottom: 3px solid black;
+}
+.topSection input + input {
+  margin-left: 70px;
+}
+.topSection input {
+  padding: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(233, 231, 231);
+  background-color: #2b2b2b;
+  cursor: pointer;
+}
+
+.midSection {
+  margin: 0 auto;
+  max-width: 90vw;
+  height: inherit;
+  text-align: center;
+}
+.midSection .productSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10%, 1fr));
+  grid-gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.productForm {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.productForm input {
+  text-transform: uppercase;
+  margin: 5px 0;
+  height: 30px;
+  max-width: 236px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  margin-top: 5px;
+}
+.productForm .selector {
+  margin-top: 5px;
+  width: 236px;
+  height: 30px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+.productForm .selector .optionInputs {
+  width: 236px !important;
+}
+.productForm select:hover {
+  cursor: pointer;
+}
+.productForm option {
+  background-color: #ff7e5f;
+  font-size: 16px;
+}
+.productForm .formAdd {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 90vw;
+  height: inherit;
+}
+.productForm .selectContainer {
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.productForm .dynamicStyle {
+  background-color: inherit;
+}
+.productForm .dynamicStyle label {
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: inherit;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 90vw;
+  height: 70vh;
+}
+footer h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: inherit;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50px;
+  border-top: 3px solid black;
+}/*# sourceMappingURL=main.css.map */

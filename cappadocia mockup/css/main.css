@@ -1,0 +1,515 @@
+@font-face {
+  font-family: "Balqis";
+  src: url("../fonts/balqis/Balqis.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-image: url("../imgs/Rectangle 42.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: coral;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  width: 1700px;
+  margin: 0 332px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  margin-top: 54px;
+}
+header ul li {
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header ul li p {
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header li:nth-child(1n) {
+  margin-left: 52.05px;
+}
+header li:first-child {
+  margin-left: 0;
+}
+header li:last-child {
+  margin-left: 612.63px;
+}
+header li:last-child p {
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.bodyMidSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 152px;
+  width: 1075.103px;
+}
+
+.bodyMidSection p:hover {
+  color: coral;
+}
+
+.mainSubHeader {
+  font-family: Roboto Condensed;
+  font-size: 56px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 575px;
+  margin-top: -48px;
+}
+
+.mainHeader {
+  color: #000;
+  font-family: Balqis;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mainHeader:hover {
+  cursor: pointer;
+}
+
+.mainSubHeader:hover {
+  cursor: pointer;
+}
+
+.secondBlock {
+  margin-top: 1160px;
+}
+
+.goldenHeader {
+  height: 125px;
+  color: #e2ab3f;
+  font-family: Balqis;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 360px;
+}
+
+.goldenHeader:hover {
+  cursor: pointer;
+}
+
+.goldenSubHeader {
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 541px;
+}
+
+.carouselSecondBLock {
+  margin-top: 100px;
+  width: 960px;
+  height: 700px;
+}
+
+.textSecondBlock {
+  margin-left: 55px;
+  margin-top: 144px;
+  font-family: Roboto Condensed;
+}
+.textSecondBlock p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.textSecondBlock p:nth-child(1n) {
+  margin-top: 50px;
+}
+
+.textSecondBlock p:first-child {
+  margin-top: 0;
+}
+
+.secondLowerBlock {
+  display: flex;
+}
+
+.secondBlockTextHeader {
+  font-weight: bold !important;
+}
+
+.thirdBlockHeader {
+  margin-top: 200px;
+}
+
+.thirdBlockText {
+  margin-left: 332px;
+}
+.thirdBlockText pre {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+}
+.thirdBlockText pre:first-child {
+  margin-top: 116px !important;
+}
+.thirdBlockText pre:nth-child(1n) {
+  margin-top: 50px;
+}
+.thirdBlockText span {
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}
+
+.thirBlockSubHeader {
+  margin-top: -22px;
+  margin-left: 600px;
+}
+
+.btn {
+  width: 280px;
+  height: 50px;
+  border: 1px solid #e2ab3f;
+  background: #FFF;
+  margin-left: 360px;
+  margin-top: 50px;
+}
+
+.btnText {
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 53px;
+  padding-right: 53px;
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: coral;
+}
+
+.carouselThirdBLock {
+  margin-left: 960px;
+  margin-top: -1255px;
+  width: 960px;
+  height: 1095px;
+}
+
+.fouthBlockMainHeader {
+  margin-top: 350px;
+}
+.fouthBlockMainHeader .goldenSubHeader {
+  margin-top: -25px;
+  margin-left: 475px;
+}
+
+.fouthBl2ockMainHeader {
+  margin-top: 360px;
+}
+
+.sultanSubHeader {
+  margin-left: 470px !important;
+}
+
+.fourthBlockImage {
+  margin-top: 100px;
+  margin-left: 362px;
+}
+
+.fourthBlockText {
+  margin-left: 935px;
+  margin-top: -700px;
+  height: 91px;
+}
+.fourthBlockText pre {
+  width: 496px;
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.fourthImageBlock {
+  margin-left: 930px;
+  margin-top: 201px;
+}
+.fourthImageBlock img:nth-child(1n) {
+  margin-top: 50px;
+  margin-left: 39px;
+}
+
+.fithBlockMainHeader {
+  margin-top: 201px;
+}
+.fithBlockMainHeader .fithBlockSubHeader {
+  margin-left: 475px;
+  margin-top: -22px;
+}
+
+.fithBlockText {
+  margin-top: 100px;
+  display: flex;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.fithBlockText div:first-child {
+  margin-left: 360px;
+}
+.fithBlockText div:nth-child(2n) {
+  margin-left: 70px;
+}
+
+.fithBlockText pre:nth-child(2n+1) {
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.baloonOne {
+  width: 73px;
+  height: 108px;
+  margin-left: 13px;
+  margin-top: 24px;
+}
+
+.baloonTwo {
+  width: 73px;
+  height: 108px;
+  margin-top: 191px;
+}
+
+.baloonThree {
+  width: 206px;
+  height: 305px;
+  margin-top: -137px;
+  margin-left: -42px;
+}
+
+.sixthBlockMainHeader {
+  margin-top: 306px;
+  margin-left: 466px;
+}
+
+.goldenSubHeader {
+  margin-left: 607px;
+  margin-top: -25px;
+}
+
+.sixthBlockMainHeaderSecond {
+  margin-top: -20px;
+  margin-left: 588px;
+}
+
+.subBlockMainHeaderSecond {
+  margin-left: 710px;
+}
+
+.inputName {
+  text-decoration: none;
+  outline: none;
+}
+
+.inputHeader {
+  margin-left: 476px;
+  margin-top: 100px;
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.err {
+  display: none;
+}
+
+.errorBoxName {
+  height: 50px;
+  margin-left: 464px;
+  color: rgb(255, 0, 0);
+  background: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.result {
+  margin-top: 25px;
+  height: 50px;
+  margin-left: 464px;
+  background: #FFF;
+  color: #e2ab3f;
+  font-family: "Balqis";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.errorBoxTelephone {
+  height: 50px;
+  margin-left: 464px;
+  background: #FFF;
+  color: rgb(255, 0, 0);
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.input {
+  width: 383px;
+  height: 50px;
+  margin-left: 464px;
+  border: 1px solid #E2AB3F;
+  background: #FFF;
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-left: 33px;
+  color: coral;
+}
+
+.input:nth-child(1n) {
+  margin-bottom: 20px;
+}
+
+.btn2 {
+  margin-top: 10px;
+  margin-left: 516px;
+}
+
+.imageSixthBlock {
+  margin-top: -764px;
+  margin-left: 960px;
+  width: 600px;
+  height: 800px;
+}
+
+footer {
+  background-image: url("../imgs/footerBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 166px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.footerHeader {
+  margin-top: -463px;
+  margin-left: 500px;
+}
+
+.footerBaloonImg {
+  margin-left: 476px;
+  margin-top: 96px;
+}
+
+.footerPhone {
+  display: flex;
+  margin-left: 570px;
+  margin-top: 30px;
+}
+.footerPhone p {
+  color: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.footerMail {
+  display: flex;
+  margin-left: 519px;
+}
+.footerMail p {
+  margin-top: 20px;
+  color: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.footerSocial {
+  margin-left: 596px;
+  margin-top: 38px;
+}
+
+.footerSecondHeader {
+  margin-left: 972px;
+  margin-top: -200px;
+  color: #000;
+}
+
+.linkSubGoldenHeader:hover {
+  cursor: grab;
+  color: coral;
+}/*# sourceMappingURL=main.css.map */

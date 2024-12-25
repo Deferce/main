@@ -1,0 +1,352 @@
+/* 1200 px*/
+@media only screen and (max-width:1200px) {
+
+    header {
+        max-width: 1200px;
+    }
+
+    body {
+        background-size: 1200px;
+    }
+
+    .container {
+        max-width: 1200px;
+
+
+    }
+
+
+    .thirdBlockText {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 100px;
+
+
+        pre:first-child {
+            margin-top: 0px !important;
+            max-width: 1200px;
+
+        }
+
+    }
+
+
+    .thirdBlockText pre:nth-child(n) {
+        margin-top: 0px;
+    }
+
+    .glide2 {
+        margin: 0 auto;
+        margin-top: -70px;
+
+    }
+
+    .mainHeader {
+        font-size: 120px;
+        margin-left: -180px;
+    }
+
+    .mainSubHeader {
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+
+    .secondBlock {
+        margin-top: 300px;
+    }
+
+    .glide__track {
+        margin: 0 auto;
+    }
+
+    .secondLowerBlock {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .glide {
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .textSecondBlock {
+
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .fouthBl2ockMainHeader {
+        margin-top: 150px;
+
+        .goldenSubHeader {
+            margin-left: 490px;
+        }
+    }
+
+    .fourthImageBlock {
+        margin-left: 550px;
+    }
+
+    .fourthBlockImage {
+        margin-left: 50px;
+        margin-top: 300px;
+    }
+
+    .fourthBlockText {
+        margin-top: -900px;
+        margin-left: 15px;
+
+    }
+
+    .fithBlockMainHeader {
+        margin-top: 350px;
+    }
+
+    .fithBlockText {
+        margin-top: 100px;
+        display: flex;
+        font-family: Roboto Condensed;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+        div:first-child {
+
+            margin-left: 50px;
+        }
+
+        div:nth-child(2n) {
+            margin-left: -700px;
+            margin-top: 400px;
+            margin-right: 900px;
+        }
+    }
+
+    .baloonOne {
+
+        margin-left: -400px;
+    }
+
+    .sixthBlockMainHeader {
+        margin-left: 55px;
+    }
+
+    .footerSubHeader {
+        margin-left: 250px;
+    }
+
+    .sixthBlockMainHeaderSecond {
+        margin-left: 180px;
+    }
+
+    .footerSubHeader2 {
+        margin-left: 290px;
+    }
+
+    .inputHeader {
+        margin-left: 60px;
+    }
+
+    .formBlock {
+        margin-left: -400px;
+    }
+
+    .imageSixthBlock {
+        margin-left: 500px;
+    }
+
+    .footerBaloonImg {
+        margin-left: 40px;
+    }
+
+    .footerHeader {
+        margin-left: 80px;
+    }
+
+    .footerPhone {
+        margin-left: 140px;
+    }
+
+    .footerMail {
+        margin-left: 100px;
+    }
+
+    .footerSocial {
+        margin-left: 170px;
+    }
+
+    .footerSecondHeader {
+        margin-left: 629px;
+    }
+}
+
+@media only screen and (min-width:1250px) and (max-width:1500px) {
+
+    body {
+        background-size: 1500px;
+    }
+
+    .container {
+        max-width: 1500px;
+
+    }
+
+    .secondBlock {
+        margin-top: 500px;
+    }
+
+    .glide {
+        width: 500px;
+    }
+
+    .glide2 {
+        margin-left: 500px;
+    }
+
+    .thirdBlockHeader {
+        margin-left: -255px;
+    }
+
+    .thirdBlockText {
+        margin-left: 70px;
+    }
+
+    /* 95*/
+    .btnBook {
+        margin-left: 95px;
+    }
+
+    .fouthBl2ockMainHeader {
+        margin-left: -255px;
+    }
+
+    .fourthBlockImage {
+        margin-left: 100px;
+    }
+
+    .fourthBlockText {
+        margin-left: 600px;
+    }
+
+    .fourthImageBlock {
+        margin-left: 600px;
+    }
+
+    .fithBlockMainHeader {
+        margin-left: -255px;
+    }
+
+    .fithBlockText {
+        margin-left: -255px;
+    }
+
+    #book {
+        margin-left: -350px;
+    }
+
+    .footerBaloonImg {
+        margin-left: 105px;
+    }
+
+    .footerHeader {
+        margin-left: 140px;
+    }
+
+    .footerPhone {
+        margin-left: 190px;
+    }
+
+    .footerMail {
+        margin-left: 160px;
+    }
+
+    .footerSocial {
+        margin-left: 230px;
+    }
+
+    .footerSecondHeader {
+        margin-left: 690px;
+
+    }
+}
+
+@media only screen and (min-width:1250px) and (max-width:1400px) {
+    body {
+        background-size: 1400px;
+
+
+    }
+
+    .container {
+        max-width: 1400px;
+
+    }
+
+    .glide2 {
+        margin-left: 435px;
+    }
+
+    .fourthBlockText {
+        margin-left: 575px;
+    }
+
+    .baloonOne {
+        z-index: -1;
+        margin-left: -600px;
+    }
+
+
+}
+
+@media only screen and (max-width:1000px) {
+    body {
+        background-size: 1000px;
+    }
+
+    header li:last-child {
+        margin-left: 350px;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+    .thirdBlockText {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .baloonOne {
+        margin-left: -590px;
+    }
+
+    .imageSixthBlock {
+        margin-left: 400px;
+    }
+
+    .sixthBlockMainHeader {
+        margin-left: 25px;
+    }
+
+    .footerSubHeader {
+        margin-left: 150px;
+    }
+
+    .input {
+        max-width: 280px;
+    }
+
+    .btn2 {
+        max-width: 230px;
+    }
+
+    .errorBoxName {
+        max-width: 280px;
+    }
+
+    .errorBoxTelephone {
+        max-width: 280px;
+    }
+
+}

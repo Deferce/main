@@ -1,0 +1,214 @@
+    @import '_functions_main', '_variables_main';
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    /// Statuses not specified directly so that they can be accessed, on multiple files
+    #connectionDbStatus {
+        color: chartreuse;
+        text-align: center;
+        text-transform: uppercase;
+        display: block;
+
+    }
+
+    #connectionDbStatusEr {
+
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    body {
+        background-color: $mainbgColor;
+        color: $mainTextColor;
+        font-family: 'Montserrat', sans-serif;
+        background: #485563;
+        background: -webkit-linear-gradient(to right, #29323c, #485563);
+        background: linear-gradient(to right, #29323c, #485563);
+
+        a {
+            all: unset;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .csCard {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            max-width: 15rem;
+            border-radius: 2rem;
+            box-shadow: 0 0 0 5px white inset;
+        }
+
+        #csCardD {
+            margin: 5rem auto;
+            text-align: center;
+        }
+
+        .csCard:hover {
+            background: -webkit-linear-gradient(to top, #3b8d99, #6b6b83, #aa4b6b);
+            background: linear-gradient(to top, #3b8d99, #6b6b83, #aa4b6b);
+            cursor: pointer;
+        }
+
+
+        .csSubBlock {
+            margin: 10px;
+
+            input[type="checkbox"] {
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+                accent-color: orange;
+
+            }
+
+        }
+
+        .csHeader {
+            margin: 0 auto;
+            max-width: 90vw;
+            height: inherit;
+            text-align: center;
+        }
+
+        .gradient-link {
+            background: linear-gradient(45deg, #ff6b6b, #f94d6a, #feb47b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        a:hover {
+            filter: brightness(1.5);
+
+        }
+    }
+
+
+    .topSection {
+        margin-top: 50px;
+
+        @include mainContainer(inherit);
+        @include flex(space-between, flex-end, inherit);
+        @include line(bottom, 3px, solid, black);
+
+
+
+
+
+        input+input {
+            margin-left: 70px;
+
+        }
+
+        input {
+            @include btn();
+
+        }
+
+
+    }
+
+    .midSection {
+
+        @include mainContainer(inherit);
+        text-align: center;
+
+
+        .productSection {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(10%, 1fr));
+            grid-gap: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+
+
+
+
+    }
+
+    .productForm {
+        margin-top: 20px;
+        font-weight: bold;
+
+        input {
+            text-transform: uppercase;
+            margin: 5px 0;
+            height: 30px;
+            max-width: 236px;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            margin-top: 5px;
+        }
+
+        .selector {
+            margin-top: 5px;
+            width: 236px;
+            height: 30px;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+
+            .optionInputs {
+                width: 236px !important;
+            }
+        }
+
+
+
+        select:hover {
+            cursor: pointer;
+        }
+
+        option {
+            background-color: #ff7e5f;
+            font-size: 16px;
+
+
+        }
+
+
+
+        .formAdd {
+            @include flex(space-between, flex-start, column);
+            @include mainContainer(inherit);
+
+        }
+
+        //container for styling select elements
+        .selectContainer {
+            @include flex(inherit, inherit, column);
+
+        }
+
+        //for styling input that occur on the form via event
+        .dynamicStyle {
+            background-color: inherit;
+
+            label {
+                margin-top: 10px;
+            }
+        }
+
+    }
+
+
+
+    footer {
+        @include flex(space-around, flex-end, inherit);
+        @include mainContainer(70vh);
+
+        h2 {
+
+            @include flex(center, center, inherit);
+            @include line(top, 3px, solid, black);
+        }
+    }

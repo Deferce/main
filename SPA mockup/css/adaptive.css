@@ -1,0 +1,636 @@
+/*#######################   Desktop First   #######################*/
+/* Large devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .zcont {
+    grid-template-columns: 1200px;
+  }
+  section .header {
+    height: 30vh;
+  }
+  section .cardBlock {
+    margin-left: 0px;
+  }
+  section .secondBlockOne {
+    width: 1200px;
+    grid-template-columns: 400px 400px 400px;
+  }
+  section .whiteBlock01 {
+    margin-left: 400px;
+  }
+  section .greenBlock01 {
+    margin-left: 400px;
+  }
+  section .footer {
+    width: 800px;
+  }
+  section .footer .rightFooterBlock {
+    margin-left: 160px;
+  }
+  section .footer .rightFooterBlock .sbmtBtn {
+    right: 30px;
+  }
+  section .footer .leftFooter {
+    width: 800px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .zcont {
+    grid-template-columns: 992px;
+  }
+  section .thirdGreenBlock {
+    width: 992px;
+  }
+  section .header {
+    width: 992px;
+    height: 30vh;
+  }
+  section .whiteBlock01 {
+    margin-left: 230px;
+  }
+  section .greenBlock01 {
+    margin-left: 230px;
+  }
+  section .secondBlockOne {
+    display: inline-block;
+    width: 992px;
+  }
+  section .secondBlockCardOne {
+    margin-bottom: -95px;
+  }
+  section .secondBlockCardThree {
+    margin-top: -95px;
+  }
+  section .cardBlock {
+    margin-left: 300px;
+    margin-top: 120px;
+  }
+  section .leftGreenBlock {
+    margin-left: 0px;
+  }
+  section .footer {
+    width: 500px;
+  }
+  section .footer .rightFooterBlock {
+    margin-left: 150px;
+  }
+  section .footer .rightFooterBlock .emailForm {
+    width: 200px;
+  }
+  section .footer .rightFooterBlock .sbmtBtn {
+    right: 0px;
+  }
+  section .footer .leftFooter {
+    width: 992px;
+    margin-left: -100px;
+  }
+}
+/* Small devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .zcont {
+    width: 768px;
+    grid-template-columns: 768px;
+  }
+  section .logo01 {
+    margin-left: 35%;
+  }
+  section .header {
+    width: 768px;
+    height: 30vh;
+  }
+  section .thirdGreenBlock {
+    width: 768px;
+  }
+  section .thirdBlockLower {
+    width: 400px;
+    margin-left: 0;
+    margin-top: 200px;
+  }
+  section .exclBtn {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  section .thirdBlock {
+    margin-top: 50%;
+  }
+  .imgHeader {
+    width: 450px;
+    height: 540px;
+    margin-left: 50px;
+    margin-top: 120px;
+  }
+  section .thirdBlockImage img {
+    width: 700px;
+    height: 500px;
+    margin-top: 1000px;
+  }
+  section .secondBlockButton {
+    display: none;
+  }
+  section .header01 {
+    margin-top: 200px;
+    font-size: 32px;
+    margin-left: -40px;
+  }
+  section .btnBlock01 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  section .btnBlock01 .button011 {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  section .btnBlock01 .button012 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -40px;
+    z-index: 10;
+  }
+  section .footer {
+    width: 768px;
+    margin-left: 5px;
+  }
+  section .footer .leftFooter {
+    width: 768px;
+    margin-left: 0;
+  }
+  section .footer .rightFooterBlock {
+    width: 300px;
+    margin-top: 200px;
+    margin-left: -300px;
+  }
+  section .footer .rightFooterBlock .emailForm {
+    margin-bottom: 50px;
+  }
+  section .footer .rightFooterBlock .sbmtBtn {
+    right: 210px;
+  }
+  section .greenBlock01 {
+    width: 768px;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  section .greenBlock01 #hours {
+    margin-right: -35px;
+  }
+  section .greenBlock01 #minutes {
+    margin-left: 5px;
+    margin-right: -35px;
+  }
+  section .greenBlock01 #seconds {
+    margin-left: 5px;
+  }
+  section .whiteBlock01 {
+    margin-left: 0;
+    text-align: center;
+    width: 768px;
+  }
+  section .whiteBlock01 .whiteInfo01 {
+    margin-top: 15px;
+    margin-left: 320px;
+  }
+  section .whiteBlock01 .whiteInfo02 {
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  section .cardContainer {
+    width: 768px;
+    margin-top: 400px;
+  }
+  section .cardContainer .imgCard {
+    box-shadow: none;
+  }
+  section .cardContainer .secondBlockOne {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    margin: 0;
+  }
+  section .cardContainer .cardBlock {
+    margin-left: 0;
+    width: 768px;
+  }
+  section .cardContainer .cardText {
+    text-align: center;
+  }
+  section .cardContainer .dotStripe {
+    width: 768px;
+  }
+  section .cardContainer .imgCard img {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 190px;
+  }
+  section .leftGreenBlock {
+    margin-top: 800px;
+    margin-left: 0;
+    width: 768px;
+  }
+  section .leftGreenBlock .thirdBlockHeader {
+    margin: 0 auto;
+  }
+  section .leftGreenBlock .thirdBlockLowerText {
+    margin: 0 auto;
+    width: 240px;
+    margin-top: 20px;
+  }
+  section .leftGreenBlock .thirdBlockSubText {
+    margin: 0 auto;
+    width: 240px;
+    margin-top: 80px;
+  }
+  section .leftGreenBlock .thirdBlockLinkLower {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+/*Extra small devices , Phones */
+@media only screen and (max-width: 480px) {
+  .zcont {
+    width: 480px;
+    grid-template-columns: 480px;
+  }
+  /* Standard syntax for Chrome and Opera */
+  @supports (-webkit-appearance: none) and (not (-moz-appearance: none)) {
+    section .cardContainer {
+      margin-top: 900px !important;
+    }
+  }
+  section .logo01 {
+    margin-left: 35%;
+  }
+  section .header {
+    width: 480px;
+    height: 30vh;
+  }
+  section .thirdGreenBlock {
+    width: 480px;
+  }
+  section .thirdBlockLower {
+    width: 480px;
+    margin-left: 0;
+    margin-top: 200px;
+  }
+  section .exclBtn {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  section .thirdBlock {
+    margin-top: 50%;
+  }
+  .imgHeader {
+    width: 480px;
+    height: 480px;
+    margin-top: 100px;
+  }
+  section .header01 {
+    margin-top: 200px;
+    font-size: 32px;
+    margin-left: -40px;
+  }
+  section .btnBlock01 {
+    display: flex;
+    flex-direction: column;
+  }
+  section .btnBlock01 .button011 {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  section .btnBlock01 .button012 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -40px;
+    z-index: 10;
+  }
+  section .greenBlock01 {
+    width: 480px;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  section .greenBlock01 #hours {
+    margin-right: -35px;
+  }
+  section .greenBlock01 #minutes {
+    margin-left: 5px;
+    margin-right: -35px;
+  }
+  section .greenBlock01 #seconds {
+    margin-left: 5px;
+  }
+  section .whiteBlock01 {
+    margin-left: 0;
+    text-align: center;
+    width: 480px;
+  }
+  section .whiteBlock01 .whiteInfo01 {
+    margin-top: 15px;
+    margin-left: 180px;
+  }
+  section .whiteBlock01 .whiteInfo02 {
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  section .thirdBlockImage {
+    display: none;
+  }
+  section .cardContainer {
+    width: 480px;
+    margin-top: 400px;
+  }
+  section .cardContainer .imgCard img {
+    width: 250px;
+  }
+  section .cardContainer .secondBlockOne {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    margin: 0;
+  }
+  section .cardContainer .cardBlock {
+    margin-left: 0;
+    width: 480px;
+  }
+  section .cardContainer .cardText {
+    text-align: center;
+  }
+  section .cardContainer .dotStripe {
+    width: 480px;
+  }
+  section .cardContainer .imgCard img {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 50px;
+  }
+  section .leftGreenBlock {
+    margin-top: 800px;
+    margin-left: 0;
+    width: 480px;
+  }
+  section .leftGreenBlock .thirdBlockHeader {
+    margin: 0 auto;
+  }
+  section .leftGreenBlock .thirdBlockLowerText {
+    margin: 0 auto;
+    width: 240px;
+    margin-top: 20px;
+  }
+  section .leftGreenBlock .thirdBlockSubText {
+    margin: 0 auto;
+    width: 240px;
+    margin-top: 80px;
+  }
+  section .leftGreenBlock .thirdBlockLinkLower {
+    margin: 0 auto;
+    margin-top: -20px;
+  }
+  section .footer {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    flex-wrap: wrap;
+    width: 480px;
+    margin-left: 0;
+  }
+  section .footer .footerBlock {
+    margin-left: 30%;
+    margin-top: 30px;
+  }
+  section .footer .footerBlock .telF01 {
+    display: block;
+    width: 200px;
+  }
+  section .footer .footerBlock .telF01 a {
+    margin: 0 auto;
+  }
+  section .footer .footerBlock .telF02 {
+    display: block;
+    width: 200px;
+  }
+  section .footer .footerBlock .telF02 a {
+    margin: 0 auto;
+  }
+  section .footer .leftFooter {
+    width: 480px;
+    height: 50vh;
+    display: block;
+  }
+  section .footer .leftFooter div a {
+    margin-left: 30%;
+  }
+  section .footer .footerCopyRight {
+    margin-left: 30%;
+  }
+  section .footer .rightFooterBlock {
+    margin-left: 60px;
+  }
+  section .footer .rightFooterBlock .sbmtBtn {
+    right: 80px;
+    margin-top: 60px;
+  }
+  section .footer .rightFooterBlock .emailForm {
+    width: 50%;
+    margin-left: 30%;
+  }
+  section .footer .rightFooterBlock .errorBox {
+    width: 200px;
+    text-align: center;
+    margin-left: 25%;
+  }
+  section .footer .rightFooterBlock p {
+    margin-left: 30%;
+  }
+  section .secondBlockButton div {
+    display: none;
+  }
+}
+/* Custom Iphones Retina */
+@media only screen and (max-width: 320px) {
+  .zcont {
+    width: 320px;
+    display: grid;
+    grid-template-columns: 320px;
+  }
+  section .header {
+    height: 30vh;
+    width: 320px;
+  }
+  section .thirdGreenBlock {
+    width: 320px;
+  }
+  section .thirdBlockLower {
+    width: 320px;
+    margin-left: 0;
+    margin-top: 200px;
+  }
+  section .exclBtn {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .imgHeader {
+    height: 320px;
+    width: 320px;
+    margin-top: 100px;
+  }
+  section .header01 {
+    margin-top: 200px;
+    font-size: 32px;
+    margin-left: -40px;
+    width: 320px;
+  }
+  section .btnBlock01 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+  }
+  section .btnBlock01 .button011 {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  section .btnBlock01 .button012 {
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    z-index: 10;
+  }
+  section .greenBlock01 {
+    width: 320px;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  section .greenBlock01 #hours {
+    margin-right: -35px;
+  }
+  section .greenBlock01 #minutes {
+    margin-left: 5px;
+    margin-right: -35px;
+  }
+  section .greenBlock01 #seconds {
+    margin-left: 5px;
+  }
+  section .whiteBlock01 {
+    margin-left: 0px;
+    width: 320px;
+  }
+  section .whiteBlock01 .whiteInfo01 {
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+  section .whiteBlock01 .whiteInfo01 p {
+    margin: 0 auto;
+  }
+  section .whiteBlock01 .whiteInfo02 {
+    margin-top: 50px;
+    margin-left: 15px;
+  }
+  section .thirdBlockImage {
+    display: none;
+  }
+  section .cardContainer {
+    width: 320px;
+    margin-top: 400px;
+  }
+  section .cardContainer .imgCard img {
+    width: 250px;
+  }
+  section .cardContainer .secondBlockOne {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 0;
+  }
+  section .cardContainer .cardBlock {
+    margin-left: 0;
+    width: 320px;
+  }
+  section .cardContainer .dotStripe {
+    width: 318px;
+  }
+  section .cardContainer .imgCard {
+    box-shadow: -75px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  section .leftGreenBlock {
+    margin-top: 800px;
+    margin-left: 0;
+    width: 320px;
+  }
+  section .leftGreenBlock .thirdBlockHeader {
+    margin: 0 auto;
+  }
+  section .leftGreenBlock .thirdBlockLowerText {
+    margin: 0 auto;
+    width: 240px;
+    margin-top: 20px;
+  }
+  section .leftGreenBlock .thirdBlockSubText {
+    margin: 0 auto;
+    width: 240px;
+    margin-top: 80px;
+  }
+  section .leftGreenBlock .thirdBlockLinkLower {
+    margin: 0 auto;
+    margin-top: -20px;
+  }
+  section .footer {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    flex-wrap: wrap;
+    width: 320px;
+    margin-left: 0;
+  }
+  section .footer .footerBlock {
+    margin-left: 30%;
+    margin-top: 30px;
+  }
+  section .footer .footerBlock .telF01 {
+    display: block;
+    width: 200px;
+  }
+  section .footer .footerBlock .telF01 a {
+    margin: 0 auto;
+  }
+  section .footer .footerBlock .telF02 {
+    display: block;
+    width: 200px;
+  }
+  section .footer .footerBlock .telF02 a {
+    margin: 0 auto;
+  }
+  section .footer .leftFooter {
+    width: 320px;
+    height: 50vh;
+    display: block;
+  }
+  section .footer .leftFooter div a {
+    margin-left: 30%;
+  }
+  section .footer .footerCopyRight {
+    margin-left: 30%;
+  }
+  section .footer .rightFooterBlock {
+    margin-left: 0;
+  }
+  section .footer .rightFooterBlock .emailForm {
+    width: 50%;
+    margin-left: 30%;
+  }
+  section .footer .rightFooterBlock .errorBox {
+    width: 200px;
+    text-align: center;
+    margin-left: 25%;
+  }
+  section .footer .rightFooterBlock .sbmtBtn {
+    right: -25px;
+    margin-top: 50px;
+  }
+  section .footer .rightFooterBlock p {
+    margin-left: 30%;
+  }
+  section .secondBlockButton div {
+    display: none;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
