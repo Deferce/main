@@ -1,0 +1,501 @@
+//!colors
+$primaryColor: #F4E041;
+$backgroundColor: #F8F8F8;
+$blackColor: #000000;
+$secondaryColor: #00BDD3;
+$midSectionFontColor: rgb(255, 255, 255);
+$buttonElementColor: rgb(244, 224, 65);
+//!font
+$fontFamily: "Nunito", sans-serif;
+
+//!normal heading styles
+$lineHeightHeading: 40px;
+$fontSizeHeading: 40px;
+
+//!body styles
+$bodyFontSize: 16px;
+$bodyLineHeight: 26px;
+
+//!Re-usable template
+//Button template 
+%yellowButton {
+    font-size: 16px;
+    border-radius: 80px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 23px;
+    padding-right: 22px;
+    height: 34px;
+    background-color: $buttonElementColor;
+    border-radius: 80px;
+
+    a {
+        display: block;
+        width: 58px;
+        height: 26px;
+    }
+}
+
+//Error div
+@mixin errorMsg {
+    margin-left: 10px;
+    padding-left: 12px;
+    width: 380px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: red;
+
+}
+
+
+//!GENERAL STYLES/////////////////////////////////////////////////////////////
+body {
+    input:focus {
+        outline: none;
+    }
+
+    font-family: "Nunito",
+    sans-serif;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+//!HEADER STYLES/////////////////////////////////////////////////////////////
+header {
+    .headerTopDiv {
+        height: 65px;
+        width: 100%;
+        background-color: $blackColor;
+    }
+
+    .headerLogo {
+
+        margin-top: 17.8px;
+        margin-bottom: 17px;
+        max-height: 26px;
+
+        img {
+            width: 104px;
+            height: 26px;
+            padding-left: 4px;
+        }
+
+    }
+
+    .headerLogo:hover {
+        cursor: pointer;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul:hover {
+        cursor: pointer;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 11px;
+        margin-bottom: 17px;
+        margin-right: -4px;
+
+        li {
+            @extend %yellowButton;
+
+
+        }
+    }
+
+
+    ul li:nth-child(1) {
+        margin-right: 10px;
+        padding-left: 29px;
+        padding-right: 29px;
+
+        a {
+            display: block;
+            width: 42px;
+            height: 26px;
+        }
+
+    }
+
+}
+
+
+//!header styles END///////////////////////////////////////////////////////////////
+
+//!MAIN SECTION STYLES/////////////////////////////////////////////////////////////
+
+main {
+
+
+    .midSection {
+        min-height: 646px;
+        background-image: url('../assets/Rectangle\ 29.png');
+        background-size: cover;
+        max-width: 1170px;
+
+
+    }
+
+    .midContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .midSectionHeaderW {
+        font-size: 40px;
+        max-width: 380px;
+        max-height: 80px;
+        font-weight: 400;
+        margin-top: 159px;
+        margin-bottom: 21px;
+        line-height: 40px;
+        color: $midSectionFontColor;
+        letter-spacing: 0%;
+    }
+
+    .midSectionSubTextW {
+        max-width: 380px;
+        max-height: 156px;
+        color: $midSectionFontColor;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 0%;
+    }
+
+    .midSectionButton {
+        @extend %yellowButton;
+
+        margin-top: 32px;
+    }
+
+    .midSectionButton:hover {
+        cursor: pointer;
+
+    }
+
+    .midInfoBlock {
+        margin-top: 140px;
+        min-height: 711px;
+
+    }
+
+    .infoBlockHeader {
+
+        margin: 0 auto;
+        padding-left: 11px;
+        max-width: 904px;
+        min-height: 40px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .wraper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .midInfoCardBlock {
+
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 370px 370px 370px;
+        grid-template-rows: 254px 254px;
+        gap: 29px;
+
+
+
+        .cardSubBlock {
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+
+            img {
+                margin-top: 12px;
+                margin-bottom: 20px;
+                margin-left: 15px;
+            }
+
+            P {
+                margin-left: 4px;
+                margin-top: 2px;
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 26px;
+                text-align: center;
+                color: rgba(0, 0, 0, 0.87);
+                font-family: Nunito;
+
+
+
+            }
+
+            p:nth-child(1) {
+                margin-bottom: 20px;
+            }
+
+        }
+
+    }
+
+    .cardSubBtn {
+        margin: 0 auto;
+        width: 120px;
+        height: 34px;
+        border-radius: 80px;
+        margin-top: 45px;
+        background: $buttonElementColor;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+
+        text-align: center;
+
+        a {
+
+            display: inline-block;
+            margin-top: 4px;
+            margin-bottom: 4px;
+            width: 83px;
+            height: 26px;
+
+        }
+    }
+
+    //!Form Section Styles/////////////////////////////////////////////////////////////
+    .formSection {
+        margin-top: 140px;
+    }
+
+    .formContainer {
+        max-width: 380px;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        .uploadSection {
+            display: flex;
+            flex-direction: row;
+            max-width: 380px;
+            min-height: 54px;
+            margin-top: 44px;
+            margin-left: 5px;
+
+            input[type="button"] {
+                max-width: 83px;
+                font-family: Nunito;
+                box-sizing: border-box;
+                border: 1px solid rgba(0, 0, 0, 0.87);
+                border-radius: 4px 0px 0px 4px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            label {
+
+                border: 1px solid rgb(208, 207, 207);
+                padding-left: 16px;
+                width: 100%;
+                border-radius: 4px;
+
+                p {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    color: rgb(126, 126, 126);
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-top: 15px;
+                    height: 26px;
+                    width: 134px;
+                }
+            }
+        }
+
+        .result {
+            margin-top: 50px;
+            color: green;
+            display: flex;
+            flex-direction: column;
+
+            div {
+                margin-top: 10px;
+                text-align: center;
+            }
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+
+
+            .errorDiv {
+                @include errorMsg;
+            }
+
+
+
+
+
+
+            .erorrShow {
+                display: block;
+            }
+
+            .email {
+                margin-bottom: 50px;
+                margin-top: 50px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+
+
+
+            #uploadedImage {
+
+                margin-left: 3px;
+                max-width: 380px;
+                display: none;
+            }
+
+            .signUp {
+
+                @extend %yellowButton;
+
+                margin-top: 42px;
+                margin-left: 150px;
+                background: rgb(180, 180, 180);
+                color: rgba(255, 255, 255, 0.87);
+            }
+
+            .signUp:hover {
+
+                cursor: pointer;
+            }
+
+            .formMidSection {
+
+
+                input {
+                    margin-left: 10px;
+                    margin-top: -4px;
+                    padding-left: 12px;
+                    padding-top: 14px;
+                    padding-bottom: 14px;
+                    width: 380px;
+                    height: 54px;
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+
+                /*
+                input[type="email"] {
+                    margin-bottom: 50px;
+                    margin-top: 50px;
+                }
+                */
+            }
+
+            .formPositionGroup {
+
+                margin-top: 48px;
+                margin-left: 9px;
+
+
+                div {
+                    margin-top: 7px;
+                    margin-left: 1px;
+                    color: rgba(0, 0, 0, 0.87);
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+
+                    input[type="radio"] {
+                        display: none;
+                    }
+
+
+
+                    input[type="radio"]+label {
+                        position: relative;
+                        padding-left: 28px;
+                        cursor: pointer;
+                        line-height: 26px;
+                        color: #333;
+
+                    }
+
+                    input[type="radio"]+label:before {
+                        content: '';
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 150%;
+                        border: 2px solid #00bcd4;
+                        background-color: #fff;
+                    }
+
+
+                    input[type="radio"]:checked+label:after {
+                        content: '';
+                        position: absolute;
+                        left: 5px;
+                        top: 5px;
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: #00bcd4;
+
+                    }
+
+
+                }
+
+
+            }
+        }
+    }
+
+}

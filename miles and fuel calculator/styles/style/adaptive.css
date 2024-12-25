@@ -1,0 +1,28 @@
+/*#######################   Desktop   #######################*/
+/* Large devices, Wide Screens */
+@media only screen and (max-width:1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width:992px) {}
+
+/* Small devices, Tablets */
+@media only screen and (max-width:768px) {}
+
+/*Extra small devices , Phones */
+@media only screen and (max-width:480px) {}
+
+/* Custom Iphones Retina */
+@media only screen and (max-width:320px) {}
+
+/*#######################   Mobile  #######################*/
+/*Custom, Iphone Retina */
+@media only screen and (min-width:320px) {}
+
+/*Extra small devices , Phones */
+@media only screen and (min-width:480px) {}
+
+/* Small devices, Tablets */
+@media only screen and (min-width:768px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width:992px) {}

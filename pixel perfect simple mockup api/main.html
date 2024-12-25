@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABZ Agency Task</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/adaptive.css">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="headerTopDiv"></div>
+        <div class="container">
+            <nav>
+                <div class="headerLogo"><img src="./assets/Logo@2x.png" alt="logo"></div>
+                <div>
+                    <ul>
+                        <li><a href="#users">Users</a></li>
+                        <li><a href="#signUp">Sign up</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="container">
+            <div class="midSection">
+                <div class="midContainer">
+                    <div class="midSectionHeaderW">Test assignment for front-end developer</div>
+                    <div class="midSectionSubTextW">
+                        What defines a good front-end developer is one that has skilled
+                        knowledge of HTML, CSS, JS with
+                        a vast understanding of User design thinking as they'll be building web interfaces with
+                        accessibility in mind. They should also be excited to learn, as the world of Front-End
+                        Development keeps evolving.
+                    </div>
+                    <div class="midSectionButton"><a href="#signUp">Sign up</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container midInfoBlock" id="users">
+            <div class="infoBlockHeader">Working with GET request</div>
+            <div class="wraper">
+                <div class="midInfoCardBlock">
+
+                    <div class="cardSubBlock"><img src="./assets/1.png" alt="partners">
+                        <div class="innerCardBlock">
+                            <p id="firstCardF">Salvador Stewart Flynn Thomas Salva Salve...</p>
+                            <p id="firstCardS">Leading specialist of the department of cent...</p>
+                            <p id="firstCardT"> frontend_develop@gmail.com</p>
+                            <p> +38 (098) 278 44 24</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="cardSubBlock"><img src="./assets/2.png" alt="partners">
+                        <div class="innerCardBlock">
+                            <p>Takamaru Ayako Jurrien</p>
+                            <p>Lead Independent Director</p>
+                            <p> Takamuru@gmail.com</p>
+                            <p class="telEphone">+38 (098) 278 90 24</p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="cardSubBlock"><img src="./assets/3.png" alt="partners">
+                        <div class="innerCardBlock">
+                            <p>Ilya</p>
+                            <p>Co-Founder and CEO</p>
+                            <p> Ilya_founder@gmail.com</p>
+                            <p class="telEphone"> +38 (098) 235 44 24</p>
+                        </div>
+                    </div>
+
+
+                    <div class="cardSubBlock"><img src="./assets/4.png" alt="partners">
+                        <div class="innerCardBlock">
+                            <p>Alexandre</p>
+                            <p>Lead Independent Director</p>
+                            <p> Alexandr_develop@gmail.com</p>
+                            <p class="telEphone"> +38 (098) 198 44 24</p>
+                        </div>
+                    </div>
+
+
+                    <div class="cardSubBlock"><img src="./assets/5.png" alt="partners">
+                        <div class="innerCardBlock">
+                            <p>Winny</p>
+                            <p>Former Senior Director</p>
+                            <p> Winny_develop@gmail.com</p>
+                            <p class="telEphone"> +38 (098) 278 22 88</p>
+                        </div>
+                    </div>
+
+
+                    <div class="cardSubBlock"><img src="./assets/6.png" alt="partners">
+                        <div class="innerCardBlock">
+                            <p>Simon</p>
+                            <p> President of Commerce</p>
+                            <p> Simon@gmail.com</p>
+                            <p class="telEphone"> +38 (098) 278 44 00</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cardSubBtn"><a href="#">Show more</a></div>
+
+
+        </section>
+
+        <section class="container formSection">
+            <div class="infoBlockHeader">Working with POST request</div>
+
+            <div class="formContainer" id="signUp">
+                <form class="mainForm" action="#" method="POST">
+                    <div class="formMidSection">
+                        <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+                        <div class="errorDiv nameError"></div>
+                        <div class="email">
+                            <input type="email" id="email" name="email" placeholder="Email" autocomplete="email"
+                                required>
+                            <div class="errorDiv emailError"></div>
+                        </div>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone" autocomplete="phone" required>
+                        <div class="errorDiv phoneError"></div>
+                    </div>
+                    <div class="formPositionGroup">
+                        <div>
+                            <label for="frontend">Select your position</label>
+                        </div>
+                        <div>
+
+                            <input type="radio" id="frontend" name="position" value="Frontend developer" checked>
+                            <label for="frontend">Frontend Developer</label>
+                        </div>
+                        <div>
+
+                            <input type="radio" id="backend" name="position" value="Backend developer"> <label
+                                for="backend">Backend Developer</label>
+                        </div>
+
+                        <div>
+
+                            <input type="radio" id="designer" name="position" value="Designer"> <label
+                                for="designer">Designer</label>
+                        </div>
+
+                        <div>
+
+                            <input type="radio" id="qa" name="position" value="QA">
+                            <label for="qa">QA</label>
+                        </div>
+                    </div>
+
+                    <div class="uploadSection">
+                        <input class="fileUpload" type="file" name="fileUpload" id="fileInput" style="display:none;"
+                            accept=".jpg, .jpeg, .png" required>
+
+                        <input type="button" id="uploadButton" value="Upload">
+                        <label for="uploadButton">
+                            <p id="uploadLabel">Upload your photo</p>
+                        </label>
+
+                    </div>
+                    <img id="uploadedImage" src="" alt="Uploaded Photo">
+                    <div class="errorDiv fileError"></div>
+                    <input class="signUp" type="button" value="Sign up" onclick="validate()">
+                </form>
+
+                <div class="result">
+                    <div class="headerR"></div>
+                    <div class="nameR"></div>
+                    <div class="emailR"></div>
+                    <div class="phoneR"></div>
+                    <div class="radioR"></div>
+                    <div class="photoR"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
